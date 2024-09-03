@@ -5,9 +5,9 @@
 }
 
 a {
-    
-    color: white;
+    color: #FFFF;
     display: contents;
+    
 
 }
 
@@ -19,6 +19,12 @@ body {
 
 }
 
+
+
+
+
+
+
 h1 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,14 +32,16 @@ h1 {
     margin-top: 40px;
 }
 .storia {
+
 width:100% ;
 font-size: 20px;
 text-transform: inherit;
 line-height: 1.2;
 margin-bottom: 300px;
 
+
 } 
-.info{
+.info {
 
     width:100% ;
 font-size: 20px;
@@ -41,8 +49,24 @@ text-transform: inherit;
 line-height: 1.2;
 margin-bottom: 300px;
 text-align: left;
-line-height: 2;
+line-height: 1.5;
 
+}
+
+.iconecontatti {
+    /* border: solid red; */
+    position: absolute;
+    top: 50vh;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.iconecontatti .icone {
+    width: 60px;
+    filter: brightness(4);
+    object-fit: fill;
 }
 
 
@@ -159,7 +183,6 @@ line-height: 2;
 
 
 a {
-    list-style: none;
     text-decoration: none;
     background: none;
     outline: none;
@@ -167,7 +190,7 @@ a {
     width: auto;
     margin: -5px;
     padding: 0;
-    position: a;
+    
 
 }
 
@@ -181,6 +204,7 @@ header {
     margin-right: 12px;
     margin-top: 12px;
 }
+
 
 
 
@@ -254,6 +278,7 @@ img {
     width: 100vw;
     height: 27vh;
     object-fit: cover;
+    transition-duration: 0.4s;
 }
 
 img:hover {
@@ -308,6 +333,12 @@ footer {
 }
 
 
+
+
+
+
+
+
 /* Desktop */
 
 @media screen and (min-width: 1024px) {
@@ -316,6 +347,7 @@ footer {
         flex-direction: row;
         align-items: center;
         margin-top: 12px;
+
     }
 
     .name {
@@ -350,6 +382,7 @@ footer {
     margin-top: 100px ;
     display: flex;
     flex-direction: column;
+    transition-duration: 0.4s;
 
 }
 button {
@@ -376,6 +409,9 @@ button h3 {
     font-size: 18px;
     font-weight: bold;
 }
+
+
+
 .testoprogetti{
     font-size: 25px;
     text-align: left;
@@ -385,34 +421,113 @@ button h3 {
     height: auto;
     margin-bottom: 40px;
 }
-.imgprogetti{
+
+
+.imgprogetti { 
     width: 60vw;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     height: auto;
     margin-top: 100px;
+    transition-duration: 0.4s;
 }
+
+
+
 img:hover {
-    
     transition: transform 0.5s ease-in-out;
     transform: scale(1.040);
     transition-duration: 0.4s;
-
-
-
-
-
-
 }
-.info{
-    text-align: center;
+
+
+
+
+.info {
+    text-align: left;
     font-weight: bold;
+    /* border: solid yellow; */
+    width: 40vw;
+    margin-left: 0;
+    height: auto;
+    margin-top: 40px;
     
 }
-h1{
-    text-align: center;
-    font-weight: bold;
+
+.iconecontatti {
+    /* border: solid red; */
+    position: absolute;
+    top: vh;
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+
 }
+
+.iconecontatti .icone {
+    width: 60px;
+    filter: brightness(4);
+    object-fit: fill;
+}
+
+
+
+
+
+
+
+
+
+.biocontent {
+    /* border: solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+
+
+  }
+
+
+
+.storia{
+    text-align: left;
+    width: 50vw;
+    height: auto;
+    color: white;
+    font-size: 18px;
+    border: solid yellow;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+}
+
+.titolo{
+    font-size: 35px;
+}
+
+.io {
+    transition-duration: 0.4s;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+.mainbio {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: solid white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+
+   
+}
+
 
 }
