@@ -508,7 +508,7 @@ img:hover {
     height: auto;
     color: white;
     font-size: 18px;
-    border: solid yellow;
+    /* border: solid yellow; */
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 0px;
@@ -525,13 +525,14 @@ img:hover {
     object-fit: cover;
     border-radius: 100%;
     margin-right: 30px;
+    margin-top: 145px;
 }
 
 .mainbio {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    border: solid white;
+    /* border: solid white; */
     margin-left: auto;
     margin-right: auto;
     width: 100%;
